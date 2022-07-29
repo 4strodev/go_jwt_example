@@ -1,0 +1,18 @@
+root = true
+
+[*]
+charset = utf-8
+indent_size = 4
+indent_style = space
+end_of_line = lf
+
+[*.{go,mod}]
+indent_size = 8
+indent_style = tab
+
+[*.{js,ts,html}]
+indent_size = 2
+indent_style = space
+
+[Makefile*]
+indent_style = tab
